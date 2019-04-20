@@ -1,0 +1,32 @@
+{
+  "name": "noise_stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YusukeShimizu/noise_stream.git"
+  },
+  "keywords": [
+    "lightning",
+    "noise",
+    "Bitcoin"
+  ],
+  "author": "YusukeShimizu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YusukeShimizu/noise_stream/issues"
+  },
+  "homepage": "https://github.com/YusukeShimizu/noise_stream#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "bcrypto": "^3.1.5",
+    "lightning-noise": "^1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
