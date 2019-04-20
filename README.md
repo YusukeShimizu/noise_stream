@@ -10,18 +10,16 @@ const NoiseStream = require('noise-stream');
 const net = require('net');
 const secp256k1 = require('bcrypto/lib/secp256k1');
 
-const port = 9735;
-
 const priv = secp256k1.privateKeyGenerate();
 const stream = new NoiseStream();
-const socket = net.connect(port);
+const socket = net.connect(9735);
+
 stream.connect(
   socket,
   Buffer.from(priv,'hex'),
   Buffer.from("<Lightning client addr>",'hex')
 );
 
-const testMessage = "Hello World!";
 stream.on('connect',()=>{
   console.log("connected!")
 })
