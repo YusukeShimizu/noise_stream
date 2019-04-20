@@ -1,5 +1,5 @@
 {
-  "name": "noise_stream",
+  "name": "@bruwbird/noise_stream",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
