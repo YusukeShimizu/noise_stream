@@ -6,7 +6,7 @@ The [Noise Protocol Framework](http://noiseprotocol.org/noise.html) wrapper for 
 
 ```js
 
-const NoiseStream = require('noise-stream');
+const NoiseStream = require('@bruwbird/noise_stream');
 const net = require('net');
 const secp256k1 = require('bcrypto/lib/secp256k1');
 
